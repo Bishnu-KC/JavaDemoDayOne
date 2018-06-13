@@ -1,0 +1,11 @@
+package com.company.loopDemo;
+
+public class ForLoopForArray {
+	public static void main (String args[])
+	{
+		int n[]= {10,20,30};
+		String str[]= {"Apple","Banna","Cheery"};
+		
+	}
+
+}

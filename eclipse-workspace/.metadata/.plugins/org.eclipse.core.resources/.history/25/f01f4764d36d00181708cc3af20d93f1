@@ -1,0 +1,5 @@
+package com.classobject.method;
+
+public class ParameterizedConstructor {
+
+}

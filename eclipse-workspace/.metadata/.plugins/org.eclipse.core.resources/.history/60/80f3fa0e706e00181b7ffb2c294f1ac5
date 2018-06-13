@@ -1,0 +1,20 @@
+package com.method.overloading;
+class MethodOverloadding{
+	void test()
+	{
+		System.out.println("No parameters.");
+	}
+	void test(int a, int b)
+	{
+		System.out.println("The value of a and b are: "+a + b);
+	}
+	
+}
+public class MethOver2 {
+	public static void main (String args[])
+	{
+		MethodOverloadding mo= new MethodOverloading();
+		
+	}
+
+}

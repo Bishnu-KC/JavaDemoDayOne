@@ -1,0 +1,16 @@
+package com.inheritance.practices;
+// Create a super class
+class A {
+	int i, j;
+	void showij()
+	{
+		System.out.println(" i and j :"+ i+" "+j);
+	}
+}
+public class SimpleInheritanceDemo {
+	public static void main (String args[])
+	{
+		
+	}
+
+}

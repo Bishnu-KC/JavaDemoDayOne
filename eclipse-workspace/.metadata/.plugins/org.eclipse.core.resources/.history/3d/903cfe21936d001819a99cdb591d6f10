@@ -1,0 +1,29 @@
+package com.weektwo.java;
+
+public class ThrowsDemo {
+	public static void main(String args[])
+	{
+		myTest();
+	}
+	void myTest()
+	{
+		try
+		{
+			
+		}
+		catch(ArithmeticException e)
+		{
+			
+		}
+		catch(NumberFormatException num)
+		{
+			
+		}
+		catch(NullPointerException e1)
+		{
+			
+		}
+		
+	}
+
+}

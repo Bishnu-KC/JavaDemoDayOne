@@ -1,0 +1,25 @@
+package com.company.loopDemo;
+
+public class LoopExamples {
+	public static void main(String args[])
+	{
+		//Examples of Loop
+		/*
+		 * 1. while loop
+		 * 2. do-while loop
+		 * 3. for loop
+		 * 4. for-each loop
+		 */
+		/*
+		 *  for(initialization; condition;increment/decrement)
+		 *  {
+		 *  	statements;
+		 *  }
+		 */
+		for(int i=1; i<10; i++)
+		{
+			System.out.println("Hello:" +i);
+		}
+	}
+
+}

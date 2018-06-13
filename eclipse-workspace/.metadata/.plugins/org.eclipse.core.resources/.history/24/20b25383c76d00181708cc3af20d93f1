@@ -1,0 +1,8 @@
+package com.classobject.method;
+
+public class SampleClass {
+	double width;
+	double height;
+	double depth;
+
+}

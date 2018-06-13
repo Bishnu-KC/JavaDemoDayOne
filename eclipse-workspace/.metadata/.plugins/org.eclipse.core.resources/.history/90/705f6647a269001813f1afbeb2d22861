@@ -1,0 +1,20 @@
+package com.company.loopDemo;
+
+public class ForLoopForArray {
+	public static void main (String args[])
+	{
+		int n[]= {10,20,30,40};
+		//String str[]= {"Apple","Banna","Cheery"};
+		for(int i=0;i<n.length;i++)
+		{
+			System.out.println(n[i]);
+		}
+		// foreach loop or enhanced for loop
+		for(int num:n)
+		{
+			System.out.println(num);
+		}
+		
+	}
+
+}

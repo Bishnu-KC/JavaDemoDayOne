@@ -1,0 +1,25 @@
+package com.classobject.method;
+class Box4 {
+	double l,b,h;
+	
+	// compute and return volume
+	double volume()
+	{
+		return l*b*h;
+	}
+	
+	//sets dimensions of box
+	void setDim(double x, double y, double z)
+	{
+		l=x;
+		b=y;
+		h=z;
+	}
+}
+public class ParameterizedMethod {
+	public static void main(String args[])
+	{
+		
+	}
+
+}

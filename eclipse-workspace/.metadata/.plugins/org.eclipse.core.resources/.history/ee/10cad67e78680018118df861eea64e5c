@@ -1,0 +1,22 @@
+package com.company.dayone;
+import javax.swing.*;
+
+public class CalulatorJOption {
+	public static void main(String args[])
+	{
+		
+		int a,b,c;
+		
+		String s1= JOptionPane.showInputDialog("Enter First Number:");
+		a=Integer.parseInt(s1);
+		
+		String s2= JOptionPane.showInputDialog("Enter Second Number:");
+		b=Integer.parseInt(s2);
+		c=a+b;
+		JOptionPane.showMessageDialog(null,"The sum of two number is: "+c);
+		
+		
+	}
+	
+
+}

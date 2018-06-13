@@ -1,0 +1,39 @@
+package com.company.dayone;
+import java.util.Scanner;
+
+import javax.swing.*;
+
+public class CalulatorJOption {
+	public static void main(String args[])
+	{
+		
+		int a,b,c;
+		
+		String s1= JOptionPane.showInputDialog("Enter First Number:");
+		a=Integer.parseInt(s1);
+		
+		String s2= JOptionPane.showInputDialog("Enter Second Number:");
+		b=Integer.parseInt(s2);
+		String s3= JOptionPane.showInputDialog("Choose your Calculation:");
+		c=Integer.parseInt(s3);
+        String doCalculation;
+        switch (c) {
+            case 1:  doCalculation = "Add"+"\n"+"The Sum is: "+(a+b);
+                     break;
+            case 2:  doCalculation = "Subtraction"+"\n"+"The difference is: "+(a-b);
+                     break;
+            case 3:  doCalculation = "Multiplication"+"\n"+"The product is: "+(a*b);
+                     break;
+            case 4:  doCalculation = "Divide"+"\n"+"The division is: "+(a/b);
+                     break;
+            default: doCalculation= "Invalid Calculation";
+                     break;
+        }
+        JOptionPane.showMessageDialog(null,doCalculation);
+ 
+		
+		
+	}
+	
+
+}

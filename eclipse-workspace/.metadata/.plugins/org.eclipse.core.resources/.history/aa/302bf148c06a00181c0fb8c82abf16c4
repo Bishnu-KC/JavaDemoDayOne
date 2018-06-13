@@ -1,0 +1,14 @@
+package com.unhsib.bishnu;
+
+public class HelloWorld {
+	public static void main (String args[])
+	{
+		//This is beginning of Java Programming
+		/*
+		 * This program this the "Hello World" as an output.
+		 * Some discription about the program also.
+		 */
+		System.out.println("Hello World.");
+	}
+
+}

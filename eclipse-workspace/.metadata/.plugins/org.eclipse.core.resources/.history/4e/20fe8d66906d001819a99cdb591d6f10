@@ -1,0 +1,19 @@
+package com.weektwo.java;
+
+public class ThrowDemo {
+	public static void main (String args[])
+	{}
+		//Syntax of throw
+		/*
+		 * 
+		 */
+		static void eligibility(int empId, int num)
+		{
+			if(empId<24 && num<55)
+			{
+				
+			}
+		}
+	
+
+}

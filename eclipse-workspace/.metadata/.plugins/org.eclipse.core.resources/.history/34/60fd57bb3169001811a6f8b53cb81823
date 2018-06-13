@@ -1,0 +1,13 @@
+package com.company.selfexample;
+
+public class LoopDemo {
+	 public static void main(String args[])
+	 {
+         int i=10;
+         while(i>1){
+              System.out.println(i);
+              i++;
+         }
+    }
+
+}

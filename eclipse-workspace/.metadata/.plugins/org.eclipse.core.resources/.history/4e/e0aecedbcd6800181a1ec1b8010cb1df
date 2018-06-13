@@ -1,0 +1,27 @@
+package com.company.dayone;
+
+public class OperatorsDemo {
+	public static void main (String args[])
+	{
+		// There are 6 different types of operators.
+		/*
+		 * 1. Basic Arithmetic
+		 * 2. Assignment
+		 * 3. Auto-increment
+		 * 4. Logical
+		 * 5. Comparison
+		 * Ternary
+		 */
+		
+		// 1. Basic Arithmetic
+		//+,-,*, and / and %
+		int a=10;
+		int b=2;
+		System.out.println("The sum of a and b is:"+(a+b));
+		System.out.println("The difference of a and b is:"+(a-b));
+		System.out.println("The product of a and b is:"+(a*b));
+		System.out.println("The division of a and b is:"+(a/b));
+		System.out.println("The modulo of a and b is:"+(a%b));
+	}
+
+}

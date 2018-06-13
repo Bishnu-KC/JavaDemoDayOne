@@ -1,0 +1,101 @@
+package com.company.controlflow;
+import java.util.*;
+
+public class IfElseDemo {
+	public static void main (String args[])
+	{
+		/*
+		 * 1. if statement
+		 * 2. nested if statement
+		 * 3. if-else statement
+		 * 4. if else-if statement
+		 */
+		// 1. if statement
+		/*
+		 * if(condition)
+		 * {
+		 * statements;
+		 * }
+		 */
+		/*
+		int a= 10;
+		if(a>5)
+		{
+			System.out.println(a);
+		}
+		System.out.println("Thankyou, Try next time");
+		
+		//Nested if statement
+		/*
+		 * if(condition)
+		 * {
+		 * 	Statement;
+		 * 	if(condition)
+		 * 		{
+		 * 			Statement;
+		 * 		}
+		 * }
+		 */
+		/*
+		int b=57;
+		if(b<80)
+		{
+			System.out.println("b is lesser value: "+b);
+			if(b>45)
+			{
+				System.out.println("b is greater value: "+b);
+			}
+		}
+		*/
+		// if else condition
+		/*
+		 * if(conditions)
+		 * 	{
+		 * 		Statements;
+		 * 	}
+		 * 	else
+		 * Statement;
+		 * 
+		 */
+		// if- else if statement
+		/*
+		 * if(condition)
+		 * 	{
+		 * 		Statements;
+		 * 	}
+		 * 	else if(condition)
+		 * 	{
+		 * 		Statements;
+		 * 	}
+		 * 	else if(condition)
+		 * 	{
+		 * 	Statements;
+		 * 	}
+		 * else
+		 * statement;
+		 */
+		/*
+		int a1,a2,a3,a4,a5,a6;
+		Scanner obj1= new Scanner (System.in);
+		System.out.println("Enter first number:");
+		a1=obj1.nextInt();
+		System.out.println("Enter Second number:");
+		a2=obj1.nextInt();
+		System.out.println("Enter Third number:");
+		a3=obj1.nextInt();
+		System.out.println("Enter Fourth number:");
+		a4=obj1.nextInt();
+		System.out.println("Enter Fifth number:");
+		a5=obj1.nextInt();
+		*/ 
+		int number;
+		Scanner obj= new Scanner(System.in);
+		number= obj.nextInt();
+		if ((number >= 0) && (number>0))
+		{
+			System.out.println("The number is positive.: "+ number);
+		}
+		 
+	}
+
+}

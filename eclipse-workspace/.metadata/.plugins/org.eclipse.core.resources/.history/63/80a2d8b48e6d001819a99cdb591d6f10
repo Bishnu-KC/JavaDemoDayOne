@@ -1,0 +1,29 @@
+package com.company.loopDemo;
+import java.util.*;
+import javax.swing.*;
+
+public class FibboSeries {
+	public static void main(String args[])
+	{
+		Scanner x= new Scanner(System.in);
+		int a,b,c,count;
+		a=0;
+		b=1;
+		System.out.println("Enter the count values.");
+		count=x.nextInt();
+		//System.out.print(a+"\t"+b);
+		for(int i=1; i<=count;i++)
+		{
+			//JOptionPane.showMessageDialog(null,a+"");
+			c=a+b;
+			//System.out.print("\t"+c);
+			String str=c;
+			JOptionPane.showMessageDialog(null,str+"");
+			a=b;
+			b=c;
+		
+		}
+		
+	}
+
+}
